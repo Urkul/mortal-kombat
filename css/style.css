@@ -139,6 +139,12 @@ a {
 }
 
 @media (max-width: 576px) {
+  /* .app {
+    height: auto;
+    padding-bottom: 400px;
+    background: url("../img/cover-image.jpg") no-repeat bottom center / 300px;
+  } */
+
   .button-text {
     display: none;
   }
@@ -149,7 +155,7 @@ a {
 
   .app {
     padding-bottom: 350px;
-    background-size: 300px;
+    background: url("../img/cover-image.jpg") no-repeat bottom center / 300px;
   }
 
   .button {
